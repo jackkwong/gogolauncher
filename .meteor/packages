@@ -8,4 +8,11 @@ autopublish
 insecure
 coffeescript
 meteorhacks:npm
+fourseven:scss
+francocatena:compass
+reywood:bootstrap3-sass
+
+
+npm-container
+iron:router
 
