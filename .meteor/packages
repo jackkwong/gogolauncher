@@ -7,7 +7,6 @@ meteor-platform
 autopublish
 insecure
 coffeescript
-meteorhacks:npm
 fourseven:scss
 francocatena:compass
 reywood:bootstrap3-sass
@@ -15,4 +14,6 @@ reywood:bootstrap3-sass
 
 npm-container
 iron:router
+meteorhacks:async
+meteorhacks:npm
 
