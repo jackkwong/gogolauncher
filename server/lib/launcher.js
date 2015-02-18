@@ -4,27 +4,21 @@ Meteor.methods({
 	'moveUp': function(duration) {
 		Async.runSync(function(done) {
 			launcher.moveUp(duration, function(){
-				launcher.stop(function(){
-					done(null);
-				});
+				done(null);
 			});
 		});
 	},
 	'moveDown': function(duration) {
 		Async.runSync(function(done) {
 			launcher.moveDown(duration, function(){
-				launcher.stop(function(){
-					done(null);
-				});
+				done(null);
 			});
 		});
 	},
 	'moveLeft': function(duration) {
 		Async.runSync(function(done) {
 			launcher.moveLeft(duration, function(){
-				launcher.stop(function(){
-					done(null);
-				});
+				done(null);
 			});
 		});
 	},
@@ -32,10 +26,15 @@ Meteor.methods({
 		Async.runSync(function(done) {
 			console.log(duration);
 			launcher.moveRight(duration, function(){
-				launcher.stop(function(){
-					done(null);
-				});
+				done(null);
 			});
+		});
+	},
+	'stop': function() {
+		Async.runSync(function(done) {
+			launcher.stop(function() {
+				done(null);
+			})
 		});
 	},
 	'fire': function() {

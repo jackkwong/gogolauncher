@@ -1,19 +1,25 @@
 {
   "dependencies": {
     "dream-cheeky-driver": {
-      "version": "2.1.1",
+      "version": "2.2.1",
       "dependencies": {
+        "requirejs": {
+          "version": "2.1.16"
+        },
         "underscore": {
           "version": "1.7.0"
         },
         "usb": {
-          "version": "0.3.11",
+          "version": "1.0.4",
           "dependencies": {
             "bindings-shyp": {
               "version": "0.2.3"
             },
+            "nan": {
+              "version": "1.6.2"
+            },
             "usb-shyp-darwin-x64": {
-              "version": "0.3.11-0"
+              "version": "1.0.4"
             }
           }
         }

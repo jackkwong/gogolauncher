@@ -1,7 +1,7 @@
 <head>
   <title>Go Go Launcher!</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -14,30 +14,15 @@
 </body>
 
 <template name="home">
-  <div class="page-header container">
-    <h1>Go Go Launcher!</h1>
-  </div>
-  <div class="row">
-    <div class="col-sm-offset-4 col-sm-4">
-    <a class="control-up btn btn-primary">UP</a>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-4">
-    <a class="control-left btn btn-primary">LEFT</a>
-    </div>
-    <div class="col-sm-4">
-    <a class="control-fire btn btn-danger">FIRE!</a>
-    </div>
-    <div class="col-sm-4">
-    <a class="control-right btn btn-primary">RIGHT</a>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-offset-4 col-sm-4">
-    <a class="control-down btn btn-primary">DOWN</a>
-    </div>
-  </div>
+  <h4>Go Go Launcher!</h4>
+  <hr>
+  <section class="control-panel">
+    <button class="control control-up">UP</button>
+    <button class="control control-left">LEFT</button>
+    <button class="control control-fire">FIRE!</button>
+    <button class="control control-right">RIGHT</button>
+    <button class="control control-down">DOWN</button>
+  </section>
 </template>
 
 <template name="layout">
